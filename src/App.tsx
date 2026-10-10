@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react';
-import About from './About';
-import Contact from './Contact';
-import Dashboard from './Dashboard';
-import DeveloperIdCard from './DeveloperIdCard';
-import GitHubSection from './GitHubSection';
-import Hero from './Hero';
-import Navbar from './Navbar';
-import Projects from './Projects';
-import Skills from './Skills';
-import { useActiveSection } from '../hooks/useActiveSection';
-import { useReducedMotion } from '../hooks/useReducedMotion';
+import About from './components/About';
+import Contact from './components/Contact';
+import Dashboard from './components/Dashboard';
+import DeveloperIdCard from './components/DeveloperIdCard';
+import GitHubSection from './components/GitHubSection';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import { useActiveSection } from './hooks/useActiveSection';
+import { useReducedMotion } from './hooks/useReducedMotion';
 
 const sectionIds = ['home', 'about', 'skills', 'projects', 'id-card', 'github', 'contact'];
 
